@@ -1,0 +1,134 @@
+*{
+    color: #FFFFFF;
+}
+
+.container-separator{
+    padding: 0em 4em 3em;
+    display: flex;
+}
+
+
+#main-container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url("images/background.jpg");
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 50wh auto;
+}
+
+#articles-container{
+    background-color: #36393e;
+}
+
+#footer-container{
+    background-color: #202020;
+}
+
+.profile-image{
+    max-height: 24em;
+    max-width: 24em;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 50% 50%;
+}
+
+.transparent-card{
+    background: none;
+}
+
+.no-border{
+    border: none;
+}
+
+.fill-image {
+    max-height: 12em;
+    object-fit: cover;
+    opacity: 20%;    
+}
+
+.card-spacing{
+    margin-bottom: 2em;
+}
+
+.card-clicker{
+    background-color: #555555;
+    cursor: pointer;
+}
+
+.distance-title{
+    margin: 2em 0em 1.5em 0.1em;
+}
+
+.distance-title-l{
+    margin: 2em 0em 5em 0.1em;
+}
+
+#contact-us-content{
+    margin: 2em 0 0;
+}
+
+#contact-us-text-formatting{
+    margin: 0;
+    padding: 2em 0 1em 0.3em;
+}
+
+#contact-us-text-formatting p{
+    margin: 0;
+    color: #FFFFFF80;
+}
+
+
+.small-contact-logo{
+    max-height: 2.5em;
+    margin: 0em 0.3em;
+}
+
+#about-me-container{
+    background-color: #3f4144;
+}
+
+#education-container{
+    background-color: #353f50;
+}
+
+#journey-container{
+    background-color: #353f50;
+    padding-bottom: 7em;
+}
+
+.timeline-separator {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+  }
+
+.timeline-separator::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0%;
+    background-color: white;
+    border: 4px solid #6d4b31;
+    top: 2.5em;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+.timeline {
+    position: relative;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+  }
